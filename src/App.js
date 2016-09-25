@@ -36,20 +36,13 @@ class App extends Component {
     return (
       <div className='App'>
         <div className="header-home-menu">
-          <div className="header-div-2-left">
-            <a className="pure-menu-heading" href="">Welcome, My Friend!</a>
-          </div>
-          <div className="header-div-2-right">
-            <ul className="haeder-ul">
-              <li onClick={() => this._changeBodyContent('aboutMe')}><a href="#" >About Me</a></li>
-              <li onClick={() => this._changeBodyContent('projects')}><a href="#">Projects</a></li>
-              <li onClick={() => this._changeBodyContent('blogs')}><a href="#">Blog(s)</a></li>
+            <ul className="header-ul">
               <li onClick={() => this._changeBodyContent('fitness')}><a href="#">Fitness</a></li>
+              <li onClick={() => this._changeBodyContent('blogs')}><a href="#">Blog(s)</a></li>
+              <li onClick={() => this._changeBodyContent('projects')}><a href="#">Projects</a></li>
+              <li onClick={() => this._changeBodyContent('aboutMe')}><a href="#" >About Me</a></li>
             </ul>
-          </div>
-          
         </div>
-       
         {this._getBodyContent()}
       </div>
     );
