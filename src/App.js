@@ -35,7 +35,6 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-
         <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
            <a className="pure-menu-heading" href="">Welcome, My Friend!</a>
            <ul className="pure-menu-list">
