@@ -37,11 +37,11 @@ class App extends Component {
       <div className='App'>
         <div className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
            <a className="pure-menu-heading" href="">Welcome, My Friend!</a>
-           <ul className="pure-menu-list">
-              <li onClick={() => this._changeBodyContent('aboutMe')} className="pure-menu-item pure-menu-selected"><a href="#" className="pure-menu-link">About Me</a></li>
-              <li onClick={() => this._changeBodyContent('projects')} className="pure-menu-item"><a href="#" className="pure-menu-link">Projects</a></li>
-              <li onClick={() => this._changeBodyContent('blogs')} className="pure-menu-item"><a href="#" className="pure-menu-link">Blog(s)</a></li>
-              <li onClick={() => this._changeBodyContent('fitness')} className="pure-menu-item"><a href="#" className="pure-menu-link">Fitness</a></li>
+           <ul >
+              <li onClick={() => this._changeBodyContent('aboutMe')} ><a href="#">About Me</a></li>
+              <li onClick={() => this._changeBodyContent('projects')} ><a href="#" >Projects</a></li>
+              <li onClick={() => this._changeBodyContent('blogs')}><a href="#" >Blog(s)</a></li>
+              <li onClick={() => this._changeBodyContent('fitness')}><a href="#">Fitness</a></li>
             </ul>
         </div>
         {this._getBodyContent()}

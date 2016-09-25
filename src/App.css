@@ -391,3 +391,34 @@ a.pure-button-primary {
 .pure-menu-link:focus{background-color:#eee}
 .pure-menu-horizontal{width:100%;white-space:nowrap}
 .pure-menu-list{display:inline-block}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+/*li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+*/
